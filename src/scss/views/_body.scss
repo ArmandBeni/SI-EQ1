@@ -21,14 +21,20 @@ body {
   }
 
   .header{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+
     ul{
       display: flex;
       justify-content: space-evenly;
+      width: 100%;
     }
   }
 
 
   .wrapper{
-    background-color: red;
+    background-color:lightgrey;
+    height: 30vh;
   }
 }
