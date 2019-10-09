@@ -69,6 +69,14 @@ body {
     text-decoration: none; }
   body li {
     list-style: none; }
-
-.wrapper {
-  background-color: #171738; }
+  body .header ul {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+    -webkit-justify-content: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly; }
+  body .wrapper {
+    background-color: red; }
