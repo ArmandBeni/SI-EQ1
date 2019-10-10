@@ -7,9 +7,9 @@
 </template>
 
 <script>
-import Main from './Views/Main.vue'
-import Header from './components/Header.vue'
-import Footer from './components/Footer.vue'
+import Main from './views/Main'
+import Header from './components/Header'
+import Footer from './components/Footer'
 
 export default {
   name: 'app',
@@ -22,8 +22,11 @@ export default {
 </script>
 
 <style>
-body{
+@import url('https://fonts.googleapis.com/css?family=Be+Vietnam&display=swap');
+
+html, body{
   margin: 0;
+  font-family: 'Be Vietnam', sans-serif;
 }
 
 #app {
@@ -32,5 +35,6 @@ body{
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  font-family: 'Be Vietnam', sans-serif;
 }
 </style>
